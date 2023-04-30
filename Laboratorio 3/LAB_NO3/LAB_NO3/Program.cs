@@ -157,6 +157,41 @@ namespace LAb03
                     Console.WriteLine("Error" + ex);
                 }
             }
+
+
+            //if (GetUsuarios2() != null && contador == con)
+            //{
+            //    try
+            //    {
+            //        string allFileData = File.ReadAllText(_path2);
+            //        foreach (string lineaActual in allFileData.Split('\n'))
+            //        {
+            //            if (!string.IsNullOrEmpty(lineaActual) && contador == con)
+            //            {
+            //                conT = 0;
+            //                string[] informacion = lineaActual.Split("{");
+            //                if (informacion[1].Contains(Sdpi.ToString()))
+            //                {
+            //                    Random signature = new Random();
+            //                    for (int r = 0; r < 10; r++)
+            //                    {
+            //                        int n = signature.Next(0, 10);
+            //                        key += n.ToString();
+            //                    }
+            //                    Console.WriteLine("Información del usuario ganador: " + informacion[1]);
+            //                    Console.WriteLine("Signature: " + key);
+            //                }
+            //            }
+            //        }
+            //    }
+            //    catch (Exception ex)
+            //    {
+            //        Console.WriteLine("Error" + ex);
+            //    }
+            //}
+
+
+
             Console.WriteLine("Se rechazaron: " + (conteo - 1) + " usuarios");
         }
     }
