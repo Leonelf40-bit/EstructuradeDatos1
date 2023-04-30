@@ -60,7 +60,7 @@ public class Program
     {
         for (int r = 0; r < 100; r++)
         {
-            string jsonText = File.ReadAllText(@"C:\Users\Monica\Documents\URL\QUINTO CICLO\Estructura de datos I\ED1\Laboratorio 2\input_challenge_lab_2.jsonl");
+            string jsonText = File.ReadAllText(@"C:\Users\Leonel\Escritorio\Estructura de datos I\Estructura de Datos 1\Lab02ES1\input_challenge.jsonl");
             string[] jsonObjects = jsonText.Split(new[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries);
             InputLab input = JsonSerializer.Deserialize<InputLab>(jsonObjects[r])!;
 
