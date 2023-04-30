@@ -75,6 +75,19 @@ public class Program
             string[] IDsRespuesta = new string[200];
             double[] PriceRespuesta = new double[200];
 
+            ////Se revisa lo que desea el cliente//
+            //double BudgetR = input.input2.budget;
+            //if (input.input2.typeBuilder == "Apartments") { Request = 0; }
+            //if (input.input2.typeBuilder == "Houses")
+            //{
+            //    Request = 1; ZDR_S = input.input2.minDanger;
+            //    //Se asigna valor numérico a ZoneDanger//
+            //    if (ZDR_S == "Green") { ZDR_I = 3; }
+            //    if (ZDR_S == "Yellow") { ZDR_I = 2; }
+            //    if (ZDR_S == "Orange") { ZDR_I = 1; }
+            //    if (ZDR_S == "Red") { ZDR_I = 0; }
+            //}
+
 
 
             //Se revisa lo que desea el cliente//
@@ -251,6 +264,7 @@ public class Program
             RespuestaFinal = RespuestaFinal + "]";
 
             Console.WriteLine(RespuestaFinal);
+            Console.WriteLine("Presionar una tecla para salir")
         }
     }
 }
