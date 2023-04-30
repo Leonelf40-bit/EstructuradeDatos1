@@ -41,6 +41,20 @@ namespace LAb02
 
             //string decode = arbolHH.Decodificacion(encode);
 
+            //var infodd = "";
+            //var info1 = "";
+            //var infoN = "";
+            //var infoD = "";
+            //var infoG = "";
+            //string[] informacion1 = { };
+            //string[] informacionP3 = { };
+            //string[] informacionP2 = { };
+            //string[] separI22 = { };
+            //int c = 0, b = 0, a = 0;
+
+
+            //string decode = arbolHH.Decodificacion(encode);
+
             var infodd = "";
             var info1 = "";
             var infoN = "";
